@@ -30,7 +30,7 @@ import android.util.Log;
  * 2012-10-18
  *
  */
-public class BitmapUtils {
+public class CloudPOSBitmapUtils {
 
   private static final String TAG = "BitmapUtils";
   private static final int DEFAULT_COMPRESS_QUALITY = 50;
@@ -40,7 +40,7 @@ public class BitmapUtils {
 
   private final Context context;
 
-  public BitmapUtils(Context context) {
+  public CloudPOSBitmapUtils(Context context) {
     this.context = context;
   }
 

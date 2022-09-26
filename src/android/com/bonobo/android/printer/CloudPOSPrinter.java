@@ -8,11 +8,8 @@ import org.apache.cordova.CordovaWebView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
-import org.json.JSONObject;
 
-import android.graphics.Paint;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 
 import android.util.Base64;
 import android.content.Context;
@@ -27,7 +24,7 @@ import com.cloudpos.printer.PrinterDevice;
 public class CloudPOSPrinter extends CordovaPlugin {
     public static final String TAG = "CloudPOSPrinter";
 
-    private BitmapUtils bitMapUtils;
+    private CloudPOSBitmapUtils bitMapUtils;
     private PrinterDevice printer = null;
 
     @Override
@@ -36,7 +33,7 @@ public class CloudPOSPrinter extends CordovaPlugin {
 
         Context applicationContext = this.cordova.getActivity().getApplicationContext();
 
-        bitMapUtils = new BitmapUtils(this.cordova.getContext());
+        bitMapUtils = new CloudPOSBitmapUtils(this.cordova.getContext());
 
         if (printer == null) {
             printer = (PrinterDevice) POSTerminal.getInstance(this.cordova.getContext()).getDevice("cloudpos.device.printer");
