@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-cloudpos-printer",
+  "version": "1.0.0",
+  "description": "Cordova CloudPOS Printer",
+  "cordova": {
+    "id": "cordova-plugin-cloudpos-printer",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": "github:mycroft11/cordova-plugin-cloudpos-printer",
+  "bugs": "https://github.com/mycroft11/cordova-plugin-cloudpos-printer/issues",
+  "keywords": [
+    "cordova",
+    "new9220",
+    "printer"
+  ],
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ."
+  },
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100",
+        "cordova-electron": ">=3.0.0"
+      }
+    }
+  },
+  "devDependencies": {
+    "@cordova/eslint-config": "^3.0.0"
+  },
+  "dependencies": {}
+}

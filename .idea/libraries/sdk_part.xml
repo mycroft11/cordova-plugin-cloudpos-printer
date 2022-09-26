@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sdk_part">
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/src/android/libs" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>
