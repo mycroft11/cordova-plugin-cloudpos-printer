@@ -50,7 +50,7 @@
         </config-file>
 
         <source-file src="src/android/com/bonobo/android/printer/CloudPOSPrinter.java" target-dir="src/com/bonobo/android/printer" />
-        <source-file src="src/android/com/bonobo/android/printer/BitmapUtils.java" target-dir="src/com/bonobo/android/printer" />
+        <source-file src="src/android/com/bonobo/android/printer/CloudPOSBitmapUtils.java" target-dir="src/com/bonobo/android/printer" />
     </platform>
 
 </plugin>
